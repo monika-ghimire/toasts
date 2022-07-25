@@ -1,0 +1,25 @@
+.form-holder
+{
+    background-color: gainsboro;
+    display: flex;
+    width:50%;
+}
+.contenet-right
+{
+    padding:50px;
+    font-size:20px;
+}
+.showData
+{
+    background-color:rgb(244, 244, 144);
+    width:100%;
+    text-align: center;
+}
+#showData
+{
+    padding:5px;
+    border-radius:5px;
+    background-color:rgb(234, 232, 232);
+    margin:10px;
+    display:none;
+}

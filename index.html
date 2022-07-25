@@ -1,0 +1,38 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+   
+ </head>
+ <body>
+       <div class="form-holder">
+        <input id="userValue" type="text">
+        <br>
+       
+        <div class="contenet-right">
+            Duration <input type="number" id="duration"><br>
+            Is Cancelable<input type="checkbox" name="success/error" id="Cancelable">
+        <br>
+            <input type="radio"  name="success/error" value="success" id="success">
+            <label for="success">success</label>
+            <br>
+            <input type="radio"  name="success/error" value="error" id="error">
+            <label for="error">error</label>
+    
+            <br><br>
+          <button  onclick="showInputInScreen()">Add Toasted</button>
+          <button  onclick="clearInputScreen()">clears Toasted</button>
+
+        </div>
+           
+    <diV  class="showData">here see Result
+        <div  id="showData"></div>
+    </diV>
+       </div>
+ </body>
+ <script src='main.js'></script>
+ </html>
